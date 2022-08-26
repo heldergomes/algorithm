@@ -1,5 +1,9 @@
 import random
 
+'''
+    Recursive calls in python need to return the function's call to not become in infinity loop
+'''
+
 
 def binary_search(list, target, low, high):
     if low <= high:
