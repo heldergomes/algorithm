@@ -1,9 +1,9 @@
 def reach_kaprekar_constant(param, interation):
     """
     It's necessary convert the integer in a list of string, because the function
-    sorted() just know how to sort an ARRAY, therefore if it's necessary sort an
+    sorted() only knows how to sort ARRAYS, therefore if it's necessary sort an
     integer number, must have to convert the integer in a string array, sort the
-    string array and convert the string array in integer again.
+    array and also convert again the string array in integer.
     """
     integer_decoded = [x for x in str(param)]  # O(n)
     asc_param = int("".join(sorted(integer_decoded)))  # O(n log n)
