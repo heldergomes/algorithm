@@ -1,5 +1,5 @@
 """
-Basically the idea was read the array from the end to the begin and save the latest
+Basically, the idea was to read the array from the end to the beginning and save the latest
 big building found, so that way was able to develop the algorithm with O(n)
 """
 
@@ -19,5 +19,5 @@ def reach_building_with_sunview(param):
 
 
 if __name__ == '__main__':
-    building_list = [12, 11, 8, 13, 6, 9]
+    building_list = [15, 14, 8, 13, 6, 9]
     print(reach_building_with_sunview(building_list))
